@@ -18,3 +18,9 @@ This design pattern defers the creation of instances to concrete subclasses, all
 #### Different Implementations
 - Abstract Classes
 - Interface
+### Builder
+This design patterns helps to provide a framework for building complex objects. It hides the detailed construction steps from the client and allows the client not to be burdened by it. It is a little different from Factory Method and Abstract Factory. These factory design patterns have concrete product classes. When products have many different configurations, these product classes can become too many. Builder design patterns help to solve this problem by having a builder or sometimes a Director to customise configurations for a product line.
+#### Different Implementations
+- Classic Builder (Builder and Director approach)
+- Fluent Builder (Method Chaining)
+- Step Builder (Multiple Step Interfaces)
