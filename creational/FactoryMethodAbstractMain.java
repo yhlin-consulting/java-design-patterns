@@ -13,7 +13,7 @@
  * 
  * Principles
  * - Concept: factories are supposed to be experts in making products
- * - Hide object creation logic from client, who does not have expertise in building the 
+ * - Hide object creation logic from client, who does not have expertise in building the products
  * - Adheres to SOLID Principles:
  *   - Single Responsibility Principle (SRP): one factory, one type of product
  *   - Open/Closed Principle (OCP): classes, modules functions should be open for extension, 

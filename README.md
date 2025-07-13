@@ -13,3 +13,8 @@ This design pattern defers the creation of instances to concrete subclasses, all
 #### Different Implementations
 - Abstract Classes
 - Interface
+### Abstract Factory
+This design pattern defers the creation of instances to concrete subclasses, allowing for extensibility and flexibility, especially when it comes to the use cases that involves creating objects of many different types, such as a factory producing different kinds of cars in different regions, a game creating many kinds of characters for different levels, or a user interface factor producing different kinds of UI components for different operating systems. This avoids modifying core business or game logic which may introduce new bugs.
+#### Different Implementations
+- Abstract Classes
+- Interface
